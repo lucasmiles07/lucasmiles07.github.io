@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Lucas Miles: Swarthmore first-year in Economics and Computer Science, NCAA lacrosse player and Eagle Scout, on how he got hooked on markets and where he wants to go in private equity.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://lucasmiles07.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lucas Miles">
+<meta property="og:description" content="Lucas Miles: Swarthmore first-year in Economics and Computer Science, NCAA lacrosse player and Eagle Scout, on how he got hooked on markets and where he wants to go in private equity.">
+<meta property="og:url" content="https://lucasmiles07.github.io/">
+<meta property="og:image" content="https://lucasmiles07.github.io/img/headshot.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Lucas Miles","url":"https://lucasmiles07.github.io/","email":"mailto:lucas.miles207@gmail.com","sameAs":["https://linkedin.com/in/lucas-miles-93089b34a"],"affiliation":{"@type":"CollegeOrUniversity","name":"Swarthmore College"}}
+</script>
+<style>img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Lucas Miles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #fbfbfd;
+    --band: #f5f5f7;
+    --surface: #ffffff;
+    --ink: #1d1d1f;
+    --ink-2: #6e6e73;
+    --ink-3: #86868b;
+    --line: #d2d2d7;
+    --accent: #2b5df0;
+    --accent-ink: #ffffff;
+    --chart: #2b5df0;
+    --chart-soft: rgba(43, 93, 240, 0.10);
+    --nav: rgba(251, 251, 253, 0.72);
+    --shadow: 0 2px 12px rgba(0,0,0,0.06);
+    --font: "Geist", -apple-system, "SF Pro Display", "SF Pro Text", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --mono: "Geist Mono", "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #000000;
+      --band: #0d0d0f;
+      --surface: #1d1d1f;
+      --ink: #f5f5f7;
+      --ink-2: #a1a1a6;
+      --ink-3: #86868b;
+      --line: #3a3a3c;
+      --accent: #4c7dff;
+      --accent-ink: #ffffff;
+      --chart: #4c7dff;
+      --chart-soft: rgba(76, 125, 255, 0.14);
+      --nav: rgba(0, 0, 0, 0.72);
+      --shadow: 0 2px 12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #000000;
+    --band: #0d0d0f;
+    --surface: #1d1d1f;
+    --ink: #f5f5f7;
+    --ink-2: #a1a1a6;
+    --ink-3: #86868b;
+    --line: #3a3a3c;
+    --accent: #4c7dff;
+    --accent-ink: #ffffff;
+    --chart: #4c7dff;
+    --chart-soft: rgba(76, 125, 255, 0.14);
+    --nav: rgba(0, 0, 0, 0.72);
+    --shadow: 0 2px 12px rgba(0,0,0,0.5);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 17px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+  .wrap { width: 100%; max-width: 1040px; margin: 0 auto; padding-inline: 22px; }
+  .narrow { max-width: 680px; }
+
+  /* Nav */
+  .nav {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 20;
+    background: var(--nav);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid color-mix(in srgb, var(--line) 60%, transparent);
+  }
+  .nav .wrap {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 48px; gap: 16px;
+  }
+  .brand { font-weight: 600; font-size: 15px; letter-spacing: -0.01em; text-decoration: none; }
+  .links { display: flex; gap: 22px; list-style: none; margin: 0; padding: 0; }
+  .links a { font-size: 13px; color: var(--ink-2); text-decoration: none; }
+  .links a:hover { color: var(--ink); }
+  @media (max-width: 640px) { .links li:nth-child(n+4) { display: none; } .links { gap: 16px; } }
+
+  /* Hero */
+  .hero { padding-block: 96px 40px; text-align: center; }
+  .eyebrow {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink-3); margin: 0 0 22px;
+  }
+  .eyebrow span + span::before { content: "·"; margin: 0 10px; color: var(--line); }
+  h1 {
+    font-size: clamp(42px, 8vw, 84px);
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 14ch;
+    text-wrap: balance;
+  }
+  h1 .soft { color: var(--ink-3); font-weight: 600; }
+  .lede {
+    font-size: clamp(19px, 2.4vw, 24px);
+    line-height: 1.35;
+    color: var(--ink-2);
+    max-width: 34ch;
+    margin: 26px auto 0;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+  .cta-row { display: flex; gap: 18px; justify-content: center; margin-top: 30px; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 10px 20px; border-radius: 980px; font-size: 15px; font-weight: 500;
+    text-decoration: none; border: 1px solid transparent; transition: transform .15s ease, background .15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn.solid { background: var(--accent); color: var(--accent-ink); }
+  .btn.ghost { color: var(--accent); }
+  .btn.ghost::after { content: "›"; font-size: 18px; line-height: 1; }
+
+  .hero-chart {
+    position: relative; margin: 44px auto 0; max-width: 900px; width: 100%;
+    aspect-ratio: 900 / 300; max-height: 320px;
+  }
+  .hero-chart canvas { width: 100%; height: 100%; display: block; }
+  .chart-caption {
+    display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+    max-width: 900px; margin: 10px auto 0; padding-inline: 4px;
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.04em; color: var(--ink-3);
+  }
+
+  /* Sections */
+  section { padding-block: 96px; }
+  section.band { background: var(--band); }
+  .kicker {
+    font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 14px;
+  }
+  h2 {
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1.06; letter-spacing: -0.03em; font-weight: 700;
+    margin: 0 0 28px; text-wrap: balance; max-width: 18ch;
+  }
+  .prose p { font-size: clamp(18px, 2vw, 21px); line-height: 1.5; color: var(--ink-2); margin: 0 0 22px; letter-spacing: -0.005em; max-width: 62ch; }
+  .prose p strong { color: var(--ink); font-weight: 600; }
+  .prose p:last-child { margin-bottom: 0; }
+
+  .pull {
+    font-size: clamp(26px, 3.6vw, 40px); line-height: 1.15; letter-spacing: -0.025em; font-weight: 600;
+    margin: 0; max-width: 22ch; text-wrap: balance;
+  }
+  .pull .soft { color: var(--ink-3); }
+
+  /* Photos */
+  figure { margin: 0; }
+  .photo { display: block; width: 100%; height: auto; border-radius: 22px; object-fit: cover; box-shadow: var(--shadow); }
+  .portrait { aspect-ratio: 4 / 5; max-width: 340px; }
+  figcaption { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); margin-top: 12px; }
+  .tile .photo { aspect-ratio: 16 / 10; border-radius: 14px; margin: -8px 0 6px; box-shadow: none; }
+
+  /* Two-column story row */
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+  @media (max-width: 760px) { .split { grid-template-columns: 1fr; gap: 28px; } }
+
+  /* Learning cards */
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 40px; }
+  @media (max-width: 860px) { .cards { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--surface); border-radius: 22px; padding: 30px 28px 32px;
+    box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 14px;
+  }
+  .card .tag { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); }
+  .card h3 { font-size: 24px; line-height: 1.15; letter-spacing: -0.02em; margin: 0; font-weight: 600; }
+  .card p { margin: 0; color: var(--ink-2); font-size: 16.5px; line-height: 1.5; }
+  .card .foot { margin-top: auto; padding-top: 10px; font-size: 14px; color: var(--ink-3); }
+
+  /* Proof grid */
+  .proof { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; margin-top: 44px; }
+  .proof .tile {
+    background: var(--surface); border-radius: 22px; padding: 28px;
+    box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px; min-height: 220px;
+  }
+  .tile.w3 { grid-column: span 3; }
+  .tile.w2 { grid-column: span 2; }
+  .tile.w4 { grid-column: span 4; }
+  .tile.w6 { grid-column: span 6; }
+  @media (max-width: 860px) { .tile.w3, .tile.w2, .tile.w4 { grid-column: span 6; } .proof .tile { min-height: 0; } }
+  .tile .big {
+    font-size: clamp(40px, 5vw, 60px); line-height: 1; letter-spacing: -0.035em; font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .tile .big small { font-size: 0.45em; color: var(--ink-3); font-weight: 600; letter-spacing: -0.01em; margin-left: 4px; }
+  .tile h3 { font-size: 20px; margin: 0; letter-spacing: -0.015em; font-weight: 600; line-height: 1.2; }
+  .tile p { margin: 0; color: var(--ink-2); font-size: 15.5px; line-height: 1.5; }
+  .tile .when { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); }
+  .tile.accent { background: var(--accent); color: var(--accent-ink); }
+  .tile.accent p, .tile.accent .when, .tile.accent .big small { color: rgba(255,255,255,0.78); }
+
+  /* Recalc */
+  .recalc .quote {
+    border-left: 3px solid var(--accent); padding-left: 20px; margin: 0 0 36px;
+    color: var(--ink-2); font-size: 18px; line-height: 1.5; max-width: 60ch;
+  }
+  .recalc .quote cite { display: block; font-style: normal; font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); margin-top: 10px; }
+  .list { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; margin-top: 44px; }
+  @media (max-width: 760px) { .list { grid-template-columns: 1fr; } }
+  .list h3 { font-size: 20px; margin: 0 0 8px; letter-spacing: -0.015em; font-weight: 600; }
+  .list p { margin: 0; color: var(--ink-2); font-size: 16.5px; line-height: 1.5; }
+
+  /* Contact */
+  .contact { text-align: center; }
+  .contact h2 { margin-inline: auto; }
+  .contact .lede { margin-top: 0; }
+  .contact-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+  .contact-row a { text-decoration: none; }
+  .meta { margin-top: 36px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.05em; color: var(--ink-3); display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; }
+
+  footer { border-top: 1px solid var(--line); padding-block: 28px 40px; font-size: 12.5px; color: var(--ink-3); }
+  footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+  /* Reveal (visible at rest; JS only hides what's below the fold) */
+  .will-reveal { opacity: 0; transform: translateY(18px); }
+  .revealed { opacity: 1; transform: none; transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .will-reveal { opacity: 1; transform: none; }
+    .revealed { transition: none; }
+    .btn { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Sections">
+  <div class="wrap">
+    <a class="brand" href="#top">Lucas Miles</a>
+    <ul class="links">
+      <li><a href="#story">Story</a></li>
+      <li><a href="#learning">Learning</a></li>
+      <li><a href="#proof">Follow-through</a></li>
+      <li><a href="#recalc">Why Recalc</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <p class="eyebrow"><span>Swarthmore College ’30</span><span>Economics &amp; Computer Science</span><span>Recalc Finance Accelerator applicant</span></p>
+    <h1>I want to learn how value gets built. <span class="soft">Then build it.</span></h1>
+    <p class="lede">First-year student, NCAA lacrosse player, Eagle Scout. No finance internship yet. A habit of looking at companies and properties and asking what they’d be worth if they were run well.</p>
+    <div class="cta-row">
+      <a class="btn solid" href="#story">Read my story</a>
+      <a class="btn ghost" href="#recalc">Why Recalc</a>
+    </div>
+    <div class="hero-chart" aria-label="A stylized line showing the 2020 market crash and recovery" role="img">
+      <canvas id="chart" width="1800" height="600"></canvas>
+    </div>
+    <div class="chart-caption" aria-hidden="true">
+      <span>JAN 2020</span><span>MAR 23 · THE BOTTOM</span><span>DEC 2020 · NEW HIGHS</span>
+    </div>
+  </div>
+</header>
+
+<section id="story">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <p class="kicker">Where it started</p>
+        <h2>It started with a crash.</h2>
+        <figure>
+          <img class="photo portrait" src="img/headshot.jpg" alt="Lucas Miles in a Hill School blazer" width="900" height="1214">
+          <figcaption>The Hill School, class of 2026</figcaption>
+        </figure>
+      </div>
+      <div class="prose">
+        <p>I was in middle school in March 2020, watching every stock I’d ever heard of fall by an amount that didn’t seem possible. What stuck with me wasn’t the fall. It was the recovery. Within months the whole thing had come back, and the people who had the nerve to buy when everyone else was selling made a lot of money. <strong>That was the first time I understood that panic has a price, and that someone is always on the other side of it.</strong></p>
+        <p>Later I got pulled into the Korean economy. I watched individual companies lose enormous amounts of value while the indexes kept climbing. A market and the companies inside it are two different stories, and the interesting work is telling them apart.</p>
+        <p>Real estate is the other thread. I’m drawn to how something as abstract as a rate decision ends up in the price of a house on my street. I can’t walk past a property without wondering what would make it worth more.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="learning">
+  <div class="wrap">
+    <p class="kicker">Right now</p>
+    <h2>What I’m working through this month.</h2>
+    <p class="pull">I read the Financial Times most mornings. <span class="soft">These are the threads I keep pulling on.</span></p>
+    <div class="cards">
+      <article class="card">
+        <span class="tag">Reading</span>
+        <h3>Chip War changed how I see the economy.</h3>
+        <p>Chris Miller’s book made me realize microchips are essentially a commodity, but a commodity with a handful of choke points. One fab, one lithography company, one shipping lane can bottleneck the world. Now I read every trade and tech headline looking for the bottleneck.</p>
+        <span class="foot">Chris Miller, <em>Chip War</em></span>
+      </article>
+      <article class="card">
+        <span class="tag">Following</span>
+        <h3>How a war in the Gulf reaches a household in Seattle.</h3>
+        <p>The question I’m tracing right now is what the conflict with Iran does to the U.S. economy. Oil first, then shipping and insurance, then inflation, then rates, then everything rates touch. I’m trying to follow the chain instead of reacting to the headline.</p>
+        <span class="foot">Financial Times, daily</span>
+      </article>
+      <article class="card">
+        <span class="tag">Building</span>
+        <h3>The toolkit, from the ground up.</h3>
+        <p>Excel and financial statement basics on my own time. Python through my intro computer science course. I know exactly where I am on the curve, and I’m not pretending otherwise. That’s the point of applying.</p>
+        <span class="foot">Excel · Financial statements · Python</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap narrow">
+    <p class="kicker">How my brain runs</p>
+    <p class="pull">I don’t have the capital yet. <span class="soft">I have the habit.</span></p>
+    <div class="prose" style="margin-top:28px">
+      <p>I catch myself doing it constantly. A restaurant that’s packed but slow. A store with the wrong hours. A tired building on a good block. What’s wrong here, what would it cost to fix, and what would it be worth after?</p>
+      <p>That’s the part of private equity that pulls me in: finding a company that’s worth more than it’s currently run for, and doing the work to close the gap. In ten years I want to be doing that for a living. Right now it’s just how I look at the world.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="proof">
+  <div class="wrap">
+    <p class="kicker">Follow-through</p>
+    <h2>The finance résumé is short. The record of finishing things isn’t.</h2>
+    <div class="proof">
+      <article class="tile w3 accent">
+        <span class="when">2017 – 2025 · Scouting America</span>
+        <div class="big">Eagle Scout</div>
+        <p>Eight years, from new Scout to patrol leader mentoring the younger ones. Eagle is earned by roughly 6% of participants. Most people who start don’t finish. I did.</p>
+      </article>
+      <article class="tile w3">
+        <span class="when">Summer 2025 · Eagle Project</span>
+        <div class="big">$1,000<small>budget, on time</small></div>
+        <p>Scoped, budgeted and ran a community project end to end for Emmanuel Church on Mercer Island. Procurement, scheduling, a volunteer team of five over 20 hours, and every dollar accounted for. It was my first real lesson in making a budget survive contact with reality.</p>
+      </article>
+      <article class="tile w2">
+        <img class="photo" src="img/takajo.jpg" alt="Lucas with two fellow counselors on the basketball court at Camp Takajo" width="900" height="1200">
+        <span class="when">Summer 2026 · Camp Takajo, Maine</span>
+        <div class="big">150+<small>campers</small></div>
+        <h3>Ran the camp lacrosse program</h3>
+        <p>Daily practice plans for ages 7 to 10 across every ability level, alongside two other coaches. Also the primary caretaker for a cabin of eight ten-year-olds. Nothing teaches planning like a schedule that has to work for a hundred and fifty kids.</p>
+      </article>
+      <article class="tile w2">
+        <span class="when">Summer 2025 · Mercer Island</span>
+        <h3>Founded a private coaching practice</h3>
+        <p>Three middle-school athletes, sourced through referrals. I set the pricing, handled scheduling and parents, and built individual development plans from measured skill gaps. Small, but it was mine, and it had to make sense as a business.</p>
+      </article>
+      <article class="tile w2">
+        <span class="when">2024 · Foothill High School</span>
+        <div class="big">CIF-SS<small>Champion</small></div>
+        <p>Varsity lacrosse, Southern Section champions. Recipient of the Bill Brogden Award for Tenacity, which is the award I’m proudest of.</p>
+      </article>
+      <article class="tile w3">
+        <span class="when">2024 – 2026 · The Hill School, Pennsylvania</span>
+        <div class="big">4.6<small>GPA</small></div>
+        <h3>Moved across the country for boarding school</h3>
+        <p>Left California for a rigorous boarding school in Pennsylvania, lived independently, and carried a full varsity season alongside the course load.</p>
+      </article>
+      <article class="tile w3">
+        <span class="when">2026 – present · Swarthmore College</span>
+        <div class="big">10<small>hrs / week</small></div>
+        <h3>NCAA Division III lacrosse</h3>
+        <p>Recruited to play varsity while carrying a full Economics and Computer Science load. Practice, lifting and competition on top of class. I like having a lot on the calendar.</p>
+      </article>
+      <article class="tile w6">
+        <span class="when">Off the field</span>
+        <h3>A solo trip to Seoul, a chess board, and two passports</h3>
+        <p>In 2026 I planned and completed an independent international trip to Seoul on my own. I’m a dual U.S. and U.K. citizen. I play chess, I lift, and I’d rather be outside than not. I mention these because the same thing runs through all of them: I like figuring out a system and then committing to it.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="recalc" id="recalc">
+  <div class="wrap narrow">
+    <p class="kicker">Why Recalc</p>
+    <h2>I’m the candidate this program says it wants.</h2>
+    <blockquote class="quote">
+      “We believe in leveraging AI to accelerate learning. We seek intellectually curious, ambitious candidates who will make the most of the program. We encourage applicants from non-traditional backgrounds.”
+      <cite>Recalc Finance Accelerator</cite>
+    </blockquote>
+    <div class="prose">
+      <p>I don’t come from a finance background. I come from eight years of Scouting, four years of varsity lacrosse, a summer running a program for a hundred and fifty kids, and a first semester of Economics and Computer Science. <strong>What I have is the habit of finishing, and a genuine pull toward understanding how companies get built, broken, and fixed.</strong></p>
+      <p>I already learn the way Recalc describes. I built this site with AI tools, and I use them daily as a tutor that works at my pace: to explain a concept in the FT I didn’t follow, to check my reasoning, to go one level deeper than the class went. A program that treats that as the default is the program I want to be in.</p>
+    </div>
+    <p class="pull" style="margin-top:56px">Why a first-year will be good at this. <span class="soft">Being the youngest in the room is where I do my best work.</span></p>
+    <div class="prose" style="margin-top:24px">
+      <p>I’m the freshman on a college lacrosse team, which means I spend every day around people who are two and three years ahead of me. I don’t wait to be taught. I ask the seniors how they handle the course load, which classes changed how they think, how they landed their internships, and what they wish they had done at eighteen. Then I do it. <strong>Seeking out people who are better than me and asking them how they got there is a habit, not something I’m planning to start.</strong></p>
+      <p>Four years of varsity lacrosse also made me coachable in a way that transfers. A coach tells you what you’re doing wrong in front of the whole team and you fix it by the next rep. In Scouting I was mentored by older patrol leaders for years, and then spent years doing the same for the younger Scouts. I know what good mentorship looks like from both sides.</p>
+      <p>And a first-year has the one thing nobody else in the program has: time. Whatever I learn this summer compounds through three more years of coursework, three more summers, and every conversation I have on a team or in a classroom. Teaching a first-year who will actually use it is the highest-return version of this program.</p>
+    </div>
+    <div class="list">
+      <div>
+        <h3>What I want to learn</h3>
+        <p>How private equity and alternative investors actually evaluate a business. How to read a set of financials and find what’s wrong. How to build a model I trust, and how to defend a view when someone smarter pushes back.</p>
+      </div>
+      <div>
+        <h3>What I bring</h3>
+        <p>I show up early and I finish what I start. I’m comfortable being the least experienced person in the room, because that’s where I learn fastest. And I’ll make the most of every hour of the program, because I’m not doing this to check a box.</p>
+      </div>
+      <div>
+        <h3>Where I want this to go</h3>
+        <p>Private equity, and eventually real estate alongside it. Ten years out I want to be the person who looks at an underperforming company or property, sees the gap, and has the skill and capital to close it.</p>
+      </div>
+      <div>
+        <h3>What I’ll do with the summer</h3>
+        <p>Treat it like a season. Study the material before it’s assigned, ask the questions that reveal what I don’t know, and leave with a real research and valuation skill set instead of a line on a résumé.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band contact" id="contact">
+  <div class="wrap narrow">
+    <p class="kicker">Get in touch</p>
+    <h2>I’d like to talk.</h2>
+    <p class="lede">If any of this raises a question, I’ll answer it directly.</p>
+    <div class="contact-row">
+      <a class="btn solid" href="mailto:lucas.miles207@gmail.com">Email me</a>
+      <a class="btn ghost" href="https://linkedin.com/in/lucas-miles-93089b34a" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="meta">
+      <span>lucas.miles207@gmail.com</span>
+      <span>949-812-2205</span>
+      <span>Swarthmore, PA · Mercer Island, WA</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Lucas Miles</span>
+    <span>Built by Lucas with AI tools, as Recalc encourages. Every word is mine to stand behind.</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Hero chart: a stylized 2020 crash-and-recovery curve, drawn on load. */
+  var c = document.getElementById('chart');
+  if (c && c.getContext) {
+    var ctx = c.getContext('2d');
+    var W = c.width, H = c.height;
+    // Stylized monthly path (illustrative shape, not tick data): Jan → Feb peak → Mar 23 low → grind back → new highs.
+    var pts = [
+      [0.00, 0.52], [0.06, 0.50], [0.12, 0.46], [0.15, 0.44], [0.17, 0.50], [0.19, 0.58],
+      [0.21, 0.72], [0.23, 0.90], [0.245, 0.96], [0.26, 0.86], [0.28, 0.80], [0.31, 0.74],
+      [0.35, 0.68], [0.40, 0.62], [0.45, 0.60], [0.50, 0.55], [0.55, 0.50], [0.60, 0.44],
+      [0.65, 0.40], [0.70, 0.43], [0.74, 0.48], [0.78, 0.42], [0.83, 0.36], [0.88, 0.30],
+      [0.93, 0.24], [0.97, 0.18], [1.00, 0.14]
+    ];
+    var pad = 40, padY = 60;
+    function px(p) { return [pad + p[0] * (W - pad * 2), padY + p[1] * (H - padY * 2)]; }
+
+    function readVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+    function draw(t) {
+      var stroke = readVar('--chart') || '#2b5df0';
+      var soft = readVar('--chart-soft') || 'rgba(43,93,240,0.1)';
+      var line = readVar('--line') || '#d2d2d7';
+      ctx.clearRect(0, 0, W, H);
+
+      // baseline at the Jan level
+      var y0 = px(pts[0])[1];
+      ctx.strokeStyle = line; ctx.lineWidth = 2; ctx.setLineDash([6, 10]);
+      ctx.beginPath(); ctx.moveTo(pad, y0); ctx.lineTo(W - pad, y0); ctx.stroke();
+      ctx.setLineDash([]);
+
+      var n = Math.max(2, Math.floor(pts.length * t));
+      var sub = pts.slice(0, n);
+      var last = sub[sub.length - 1];
+
+      // area
+      ctx.beginPath();
+      var p0 = px(sub[0]); ctx.moveTo(p0[0], p0[1]);
+      for (var i = 1; i < sub.length; i++) {
+        var a = px(sub[i - 1]), b = px(sub[i]);
+        var cx = (a[0] + b[0]) / 2;
+        ctx.bezierCurveTo(cx, a[1], cx, b[1], b[0], b[1]);
+      }
+      var pl = px(last);
+      ctx.lineTo(pl[0], H - padY + 20); ctx.lineTo(p0[0], H - padY + 20); ctx.closePath();
+      ctx.fillStyle = soft; ctx.fill();
+
+      // line
+      ctx.beginPath(); ctx.moveTo(p0[0], p0[1]);
+      for (i = 1; i < sub.length; i++) {
+        a = px(sub[i - 1]); b = px(sub[i]); cx = (a[0] + b[0]) / 2;
+        ctx.bezierCurveTo(cx, a[1], cx, b[1], b[0], b[1]);
+      }
+      ctx.strokeStyle = stroke; ctx.lineWidth = 6; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.stroke();
+
+      // endpoint dot
+      ctx.beginPath(); ctx.arc(pl[0], pl[1], 11, 0, Math.PI * 2);
+      ctx.fillStyle = stroke; ctx.fill();
+      ctx.beginPath(); ctx.arc(pl[0], pl[1], 5, 0, Math.PI * 2);
+      ctx.fillStyle = readVar('--bg') || '#fff'; ctx.fill();
+    }
+
+    if (reduce) { draw(1); }
+    else {
+      var start = null, dur = 2600;
+      function frame(ts) {
+        if (!start) start = ts;
+        var t = Math.min(1, (ts - start) / dur);
+        var e = 1 - Math.pow(1 - t, 3);
+        draw(e);
+        if (t < 1) requestAnimationFrame(frame);
+      }
+      draw(0.08);
+      requestAnimationFrame(frame);
+    }
+    if (window.matchMedia) {
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      if (mq.addEventListener) mq.addEventListener('change', function () { draw(1); });
+    }
+    new MutationObserver(function () { draw(1); }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+
+  /* Reveal on scroll: only elements below the first viewport are hidden, so the page is complete at rest. */
+  if (!reduce && 'IntersectionObserver' in window) {
+    var targets = document.querySelectorAll('.card, .tile, .prose, .pull, h2, .list > div, .quote');
+    var vh = window.innerHeight || 800;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('revealed'); io.unobserve(en.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+    targets.forEach(function (el) {
+      if (el.getBoundingClientRect().top > vh) { el.classList.add('will-reveal'); io.observe(el); }
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
